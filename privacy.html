@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — GameVerse Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card: #111827;
+      --primary: #6366f1;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at 50% 0%, #1e1b4b, var(--bg) 70%);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+    }
+    a.back { color: var(--primary); text-decoration: none; font-weight: 600; display: inline-block; margin-bottom: 20px; }
+    h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px; color: #fff; }
+    .updated { color: var(--text-muted); font-size: 14px; margin-bottom: 24px; }
+    h2 { font-size: 20px; font-weight: 700; margin-top: 28px; margin-bottom: 12px; color: #e2e8f0; }
+    p { margin-bottom: 16px; color: var(--text-muted); font-size: 15px; }
+    ul { margin-left: 20px; margin-bottom: 16px; color: var(--text-muted); font-size: 15px; }
+    li { margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="./index.html" class="back">&larr; Back to Home</a>
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: November 16, 2026</div>
+
+    <h2>1. Information We Collect</h2>
+    <p>GameVerse Hub collects only the minimal data strictly necessary to deliver clip processing and publishing services:</p>
+    <ul>
+      <li><strong>Account Identification:</strong> When authorizing via OAuth 2.0 (TikTok, YouTube, Meta/Instagram), we collect channel/profile names, profile identifiers, and usernames to display in the user's dashboard.</li>
+      <li><strong>OAuth Tokens:</strong> Encrypted access and refresh tokens required to interact with official platform publishing APIs.</li>
+      <li><strong>Media & Metadata:</strong> Video files, transcripts, titles, and tags processed directly on the creator's infrastructure.</li>
+    </ul>
+
+    <h2>2. How We Use Information</h2>
+    <p>We use your information exclusively to:</p>
+    <ul>
+      <li>Authenticate publishing sessions on supported social platforms.</li>
+      <li>Publish creator-approved video highlights to TikTok, YouTube Shorts, and Instagram Reels.</li>
+      <li>Provide local auditing logs and performance feedback to the creator.</li>
+    </ul>
+
+    <h2>3. Security and Storage</h2>
+    <p>All sensitive credentials, including OAuth access tokens and client secrets, are encrypted at rest using industry-standard AES-128/Fernet cryptographic standards. Tokens are never exposed in plaintext logs, audit trails, or frontend code.</p>
+
+    <h2>4. Data Sharing and Third-Party Disclosures</h2>
+    <p>GameVerse Hub does <strong>not sell, rent, or monetize</strong> creator data or video content under any circumstances. Data is only communicated to official platform APIs (TikTok API, Google YouTube Data API, Meta Graph API) upon explicit user initiation.</p>
+
+    <h2>5. Data Deletion and Revocation</h2>
+    <p>You have full control over your data. You may revoke API access directly through your TikTok, Google, or Meta account security settings at any time, or click "Disconnect" in the GameVerse Hub dashboard to immediately purge all encrypted tokens from storage.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or data handling practices, please contact: <code>privacy@gameversehub.com</code></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameVerse Hub — Gaming Automation & Clips Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card: #111827;
+      --primary: #6366f1;
+      --accent: #22d3ee;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at 50% 0%, #1e1b4b, var(--bg) 70%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: rgba(17, 24, 39, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 48px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      color: var(--accent);
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 38px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      color: var(--text-muted);
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+    }
+    .card h3 {
+      font-size: 17px;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    .card p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    .links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 24px;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      border-radius: 12px;
+      transition: all 0.2s;
+    }
+    .btn:hover {
+      background: #4f46e5;
+      transform: translateY(-2px);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    footer {
+      margin-top: 32px;
+      font-size: 13px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Official Platform</div>
+    <h1>GameVerse Hub</h1>
+    <p>GameVerse Hub is an intelligent gaming clip curation and vertical video automation platform. It empowers gaming content creators to analyze live gameplay, select the best highlight moments with AI scene understanding, and manage multi-platform publishing across TikTok, YouTube Shorts, and Instagram Reels.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>⚡ AI Scene Detection</h3>
+        <p>Real-time speech transcription, audio peak tracking, and motion analysis on NVIDIA RTX GPUs.</p>
+      </div>
+      <div class="card">
+        <h3>🎬 Multi-Platform 9:16</h3>
+        <p>Smart vertical formatting with blurred margins and hardware NVENC rendering.</p>
+      </div>
+      <div class="card">
+        <h3>🛡️ Editorial Approval</h3>
+        <p>Strict creator consent protocol ensuring only verified and approved clips are published.</p>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="./terms.html" class="btn btn-secondary">Terms of Service</a>
+      <a href="./privacy.html" class="btn btn-secondary">Privacy Policy</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 GameVerse Hub. All rights reserved. Built for creators and gaming communities.
+  </footer>
+</body>
+</html>

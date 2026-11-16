@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok OAuth Callback — GameVerse Hub</title>
+</head>
+<body style="background:#090d16;color:#f3f4f6;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;">
+  <div style="text-align:center;padding:30px;background:#111827;border-radius:16px;border:1px solid rgba(255,255,255,0.1);">
+    <h2>Conectando com GameVerse Hub...</h2>
+    <p>Redirecionando de volta para o seu painel local...</p>
+  </div>
+  <script>
+    // Se o callback cair aqui no GitHub Pages, redireciona os parametros de volta para o localhost:8000 automaticamente!
+    const query = window.location.search;
+    window.location.href = "http://localhost:8000/api/oauth/tiktok/callback" + query;
+  </script>
+</body>
+</html>
